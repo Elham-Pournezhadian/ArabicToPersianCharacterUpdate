@@ -1,0 +1,14 @@
+def ArabCharToFarsi(x,y):
+    if (y =='p'):
+        x = x.replace(chr(1610),chr(1740))
+        x = x.replace(chr(1603),chr(1705))
+        result = x
+    elif (y =='a'):
+        x = x.replace(chr(1740),chr(1610))
+        x = x.replace(chr(1705),chr(1603))
+        result = x
+    else:
+        result = x
+       
+    return result
+
